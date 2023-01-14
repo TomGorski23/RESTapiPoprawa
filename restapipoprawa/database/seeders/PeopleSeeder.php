@@ -11,6 +11,6 @@ class PeopleSeeder extends Seeder
     {
         People::factory()
         ->count(50)
-        create();
+        ->create();
     }
 }
