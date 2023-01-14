@@ -40,7 +40,7 @@ class PeopleController extends Controller
         return response()->json($people, 200);
     }
 
-    public function delete($id): JsonResponse
+    public function delete(People $people): JsonResponse
     {
         $people->delete;
         
